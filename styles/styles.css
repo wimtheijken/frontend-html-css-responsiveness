@@ -12,98 +12,17 @@ Table of Contents:
     1. Global Styles
 ////////////////////////*/
 
-* {
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-}
-
-:root {
-    --peach: #F9C48B;
-    --atomic-tangerine: #F69051;
-    --burnt-elena: #F26D40;
-    --black-bean: #260803;
-    --seashell: #FDEFEC;
-}
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
 
-body {
-    font-family: 'Dosis', sans-serif;
-    font-weight: 400;
-}
-
-html {
-    font-size: 16px;
-}
 
 /*////////////////////////
     3. Areas
 ////////////////////////*/
 
-main {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    background-color: var(--peach); /* mobiel */
-}
-
-section {
-    background-color: var(--seashell);
-    padding: 2rem;
-    margin: 1rem;
-    border-radius: 1rem;
-}
-img {
-    width: 100%;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-}
-.image-wrapper {
-    flex-basis: 600px;
-    flex-grow: 0;
-    flex-shrink: 1;
-}
 
 /*////////////////////////
     2. Media Queries
 ////////////////////////*/
-
-/* mobiel */
-p {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-}
-h2  {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-}
-
-/* tablet */
-@media screen and (min-width: 768px) {
-    p {
-        font-size: 1.1rem;
-    }
-    h2  {
-        font-size: 1.7rem;
-    }
-    main {
-        background-color: var(--atomic-tangerine);
-    }
-}
-
-/* desktop */
-@media screen and (min-width: 992px) {
-    p {
-        font-size: 1.2rem;
-    }
-    h2  {
-        font-size: 1.8rem;
-    }
-    main {
-        background-color: var(--burnt-elena);
-    }
-}
